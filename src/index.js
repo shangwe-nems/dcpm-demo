@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import './assets/style/global.scss'
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { store } from './store';
 import { Provider } from 'react-redux';
 import { MantineProvider } from '@mantine/core';
@@ -14,9 +14,9 @@ ReactDOM.render(
     <MantineProvider>
       <NotificationsProvider>
         <Provider store={store}>
-          <BrowserRouter>
+          <HashRouter>
             <App />
-          </BrowserRouter>
+          </HashRouter>
         </Provider>
       </NotificationsProvider>
     </MantineProvider>,
