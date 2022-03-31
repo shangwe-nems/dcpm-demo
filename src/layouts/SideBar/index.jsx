@@ -13,7 +13,7 @@ function SideBar() {
         <nav className='sidebar'>
             <div className='logo'>
                 <Link to="/" className='logoMerge'>
-                    <img src='/logo-icon.png' alt='logo'/>
+                    <img src='./logo-icon.png' alt='logo'/>
                 </Link>
                 <img src='/logo-text.png' alt='logo'/>
             </div>
