@@ -70,10 +70,10 @@ function LoginPage() {
                     <Grid.Col span={6}>
                         <div className='cmp-info'>
                             <div className='cm-logo'>
-                                <img src={"/dcpm-logo-1300x.png"} alt='Logo'/>
+                                <img src={"./dcpm-logo-1300x.png"} alt='Logo'/>
                                 <p>Nuestra misión es contribuir a la afirmación de la dignidad humana y la construcción de relaciones armónicas y equitativas a través de un desarrollo transformador sostenible. </p>
                             </div>
-                            <img src={"/heartbeat.png"} alt='illustration'/>
+                            <img src={"./heartbeat.png"} alt='illustration'/>
                         </div>
                     </Grid.Col>
                     <Grid.Col span={6} className='login-in-sec'>
@@ -114,7 +114,7 @@ function LoginPage() {
                                 <Button loading={loading} leftIcon={<FiLogIn />} type='submit' color='cyan' size='sm'>Sign In</Button>
                             </form>
                         </div>
-                        <img src={"/pills.png"} alt='illustration'/>
+                        <img src={"./pills.png"} alt='illustration'/>
                     </Grid.Col>
                 </Grid>
             </div>
