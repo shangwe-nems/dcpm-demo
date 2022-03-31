@@ -1,0 +1,119 @@
+
+.titleRow {
+    width: 100%;
+    color: #a6a6a6;
+    font-size: 16px;
+    font-weight: lighter;
+    display: inline-flex;
+    align-items: center;
+    padding-inline: 2.5%;
+
+    .checkbox {
+        width: 40px;
+    }
+
+    .number {
+        width : 8%;
+    }
+
+    .patientName {
+        width: 24.4%;
+    }
+
+    .gender {
+        width: 8%;
+    }
+
+    .age { 
+        width: 9%;
+        text-align: left;
+        padding: 0;
+    }
+
+    .birthday {
+        width: 15%;
+    }
+
+    .diagnose {
+        width: 15%;
+    }
+
+    .triage {
+        width: 14%;
+    }
+
+    .dots {
+
+    }
+}
+
+.dataRow {
+    width: 100%;
+    color: #a6a6a6;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 0;
+    padding-inline: 2.5%;
+
+    .checkbox {
+        width: 40px;
+    }
+
+    .number {
+        width : 8%;
+    }
+
+    .patientName {
+        width: 24.5%;
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .gender {
+        width: 8%;
+
+        span {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: grid;
+            place-content: center;
+        }
+    }
+
+    .age { 
+        width: 9%;
+        text-align: left;
+    }
+
+    .birthday {
+        width: 15%;
+    }
+
+    .diagnose {
+        width: 15%;
+    }
+
+    .triage {
+        width: 14%;
+    }
+
+    .dots {
+        padding: 4px;
+        cursor: pointer;
+        border-radius: 4px;
+
+        &:hover {
+          background-color: #fafafa;  
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: #fffcfa;
+        border-left: 4px solid #15aabf;
+    }
+}

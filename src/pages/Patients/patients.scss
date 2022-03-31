@@ -1,0 +1,43 @@
+@import '../../assets/style/reset';
+
+.app {
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+
+    .siderbar {
+        width: 20%;
+        height: 100vh;
+    }
+
+    .mainContent {
+        width: 80%;
+    }
+}
+
+.headerMainPage {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px;
+
+    .rightSection {
+        display: inline-flex;
+        align-items: center;
+
+    }
+}
+
+.patientList {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.pagination {
+    width: 100%;
+    padding-top: 24px;
+    display: grid;
+    place-content: start;
+}

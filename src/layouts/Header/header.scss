@@ -1,0 +1,68 @@
+@import url('../../assets/style/_reset.scss');
+
+.header {
+    width: 80%;
+    background-color: #fff;
+    padding:0 ;
+    border-left: 1px solid #fafafa;
+    position: fixed;
+    z-index: 5;
+
+    .container {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            
+            a {
+
+                img {
+                    height: 78px;
+                }
+            }
+        }
+
+        .searchbar {
+            display: inline-flex;
+            align-items: center;
+
+        }
+
+        .rightSide {
+            display: inline-flex;
+            align-items: center;
+        
+
+            span{
+                height: 100%;
+                width: 50px;
+                color: #cacaca;
+
+                :hover {
+                    cursor: pointer;
+                    color: #a6a6a6;
+                }
+            }
+
+            .question {
+                border-right: 1px solid #f1f1f1;
+            }
+
+            .bell {
+                position: relative;
+
+                span {
+                    position: absolute;
+                    background-color: #15aabf;
+                    border-radius: 50%;
+                    width: 9px;
+                    height: 9px;
+                    left: 16.5px;
+                }
+            }
+        }
+    }
+}
+

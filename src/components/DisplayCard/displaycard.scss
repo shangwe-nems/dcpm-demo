@@ -1,0 +1,80 @@
+.cardContainer {
+    width: 100%;
+    height: auto;
+}
+
+
+.patient_card {
+    padding: 28px 36px;
+    position: relative;
+
+    .avatar_section {
+        position: relative;
+
+        span {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 0;
+            left: 60px;
+            display: grid;
+            place-content: center;
+        }
+
+        .gender {
+            position: absolute;
+            left: 90px;
+            bottom: 0px;
+            display: inline-flex;
+            align-items: center;
+        }
+
+    }
+
+    .name_section {
+        margin-top: 16px;
+        h3 {
+            font-size: 22px;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 16px;
+            color: #a1a1a1;
+        }
+    }
+
+    .data_section {
+        margin-top: 10px;
+        h3 {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 16px;
+            color: #a1a1a1;
+        }
+    }
+
+    .ellipsisIcon {
+        cursor: pointer;
+        position: absolute;
+        color: #a6a6a6;
+        top:14px;
+        right: 20px;
+
+        &:hover {
+            
+            color: #15aabf;
+            
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: #fffcfa;
+        border-bottom: 1px solid #15aabf;
+    }
+}

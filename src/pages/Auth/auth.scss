@@ -1,0 +1,142 @@
+@import url('../../assets/style/_reset.scss');
+
+.signin-in {
+    background-image: url('../../assets/img/logincover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+    place-content: center;
+
+    .sign-in-page {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        place-content: center;
+        
+        .signin-pop {
+            width: 870px;
+            background-color: #ffffff;
+            border-radius: 4px;
+        }
+    }
+}
+
+.cmp-info {
+    padding: 0;
+
+    .cm-logo {
+        padding: 20px 40px;
+        margin-bottom: 20px;
+
+        img {
+            width: 85%;
+            margin: 30px 0;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.4em;
+            width: 100%;
+            padding-left: 20px;
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+    }
+
+    img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+.login-in-sec {
+    width: 100%;
+    height: auto;
+    border-left: 1px solid #f0f0f0;
+    
+    position: relative;
+
+    .login-sec {
+        padding: 40px 65px;
+        margin-top: 55px;
+        position: absolute;
+        margin-bottom: 30px;
+        z-index: 5;
+
+        h3 {
+            color: #000000;
+            font-size: 24px;
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 14px;
+            margin-bottom: 30px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 30px;
+                height: 2px;
+                background-color: #15aabf;
+            }
+        }
+
+        
+    }
+    
+    img {
+        position: absolute;
+        bottom: 8px;
+        left: 0;
+        width: 98.5%;
+        z-index: 3;
+    }
+}
+
+
+.fgtpwd {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0;
+    margin-bottom: 20px;
+    
+
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #686868;
+
+        &:hover {
+            color: #15aabf;
+        }
+    }
+
+}
+
+#error {
+   display: inline-flex;
+   align-items: center;
+   
+   svg {
+       margin-right: 5px;
+   }
+}
+
+.formField {
+    margin: 7px 0;
+}
+
+.mantine-1w07r5r {
+    color: #00a1b7 !important;
+}
+
+.mantine-1a6i1ew {
+    padding: 0 !important; 
+}
